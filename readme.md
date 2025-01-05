@@ -20,7 +20,7 @@
 ## Instalación
 
 1. **Descargar el plugin**:
-   - Descarga el archivo `.jar` de [aquí]() (reemplaza con el enlace real).
+   - Descarga el archivo `simpleplugin-0.1.jar`.
 
 2. **Colocar el archivo `.jar` en la carpeta `plugins`**:
    - Dirígete a la carpeta `plugins` de tu servidor de Minecraft.
@@ -48,14 +48,8 @@ Una vez que el plugin esté instalado y el servidor se haya reiniciado, puedes u
 
 El plugin tiene un sistema de configuración flexible. Puedes modificar varias opciones desde el archivo `config.yml` que se encuentra en la carpeta del plugin.
 
-## Enlace
-
-Para más información, consulta el [enlace del plugin](https://www.pluginurl.com).
 
 ## Autor
 
 Este plugin ha sido desarrollado por **TheAnarchy19**.
 
-## Licencia
-
-Este proyecto está bajo la licencia [MIT License](LICENSE).
