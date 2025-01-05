@@ -17,12 +17,10 @@ public class TpaAcceptCommand implements CommandExecutor {
             if (TeleportRequestManager.hasRequest(player)) {
                 Player requester = TeleportRequestManager.getRequester(player);
                 
-                // Teletransportar al jugador
                 player.teleport(requester);
                 player.sendMessage("Te has teletransportado a " + requester.getName());
                 requester.sendMessage(player.getName() + " ha aceptado tu solicitud de teletransportación.");
                 
-                // Eliminar la solicitud
                 TeleportRequestManager.removeRequest(player);
             } else {
                 player.sendMessage("No tienes ninguna solicitud de teletransportación pendiente.");

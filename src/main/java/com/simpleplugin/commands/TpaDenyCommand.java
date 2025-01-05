@@ -16,11 +16,9 @@ public class TpaDenyCommand implements CommandExecutor {
             if (TeleportRequestManager.hasRequest(player)) {
                 Player requester = TeleportRequestManager.getRequester(player);
 
-                // Informar al jugador que la solicitud fue denegada
                 player.sendMessage("Has denegado la solicitud de teletransportación de " + requester.getName());
                 requester.sendMessage(player.getName() + " ha denegado tu solicitud de teletransportación.");
 
-                // Eliminar la solicitud
                 TeleportRequestManager.removeRequest(player);
             } else {
                 player.sendMessage("No tienes ninguna solicitud de teletransportación pendiente.");

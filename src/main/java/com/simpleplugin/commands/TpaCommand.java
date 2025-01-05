@@ -18,11 +18,9 @@ public class TpaCommand implements CommandExecutor {
                 Player target = Bukkit.getPlayer(args[0]);
 
                 if (target != null && target.isOnline()) {
-                    // Enviar solicitud de teletransportación
                     target.sendMessage(player.getName() + " te ha solicitado teletransportarse a ti. Usa /tpaccept o /tpdeny.");
                     player.sendMessage("Has solicitado teletransportarte a " + target.getName() + ". Esperando respuesta...");
                     
-                    // Guardar la solicitud en algún tipo de almacenamiento (por ejemplo, un mapa)
                     TeleportRequestManager.addRequest(player, target);
                 } else {
                     player.sendMessage("El jugador no está online.");
