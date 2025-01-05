@@ -48,6 +48,9 @@ Una vez que el plugin esté instalado y el servidor se haya reiniciado, puedes u
 
 El plugin tiene un sistema de configuración flexible. Puedes modificar varias opciones desde el archivo `config.yml` que se encuentra en la carpeta del plugin.
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Autor
 
