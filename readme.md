@@ -20,7 +20,7 @@
 ## Instalación
 
 1. **Descargar el plugin**:
-   - Descarga el archivo `simpleplugin-0.1.jar`.
+   - Descarga el archivo jar que se encuentra en la carpeta`versiones/`.
 
 2. **Colocar el archivo `.jar` en la carpeta `plugins`**:
    - Dirígete a la carpeta `plugins` de tu servidor de Minecraft.
