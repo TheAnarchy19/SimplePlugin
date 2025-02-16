@@ -12,6 +12,7 @@
   - `/tpaccept` - Acepta una solicitud de teleportación.
   - `/tpdeny` - Niega una solicitud de teleportación.
   - `/tpa` - Solicita una teleportación a otro jugador.
+  - `/msg` - Envia un mensaje privado a un jugador.
 
 - **Eventos personalizados**: 
   - Eventos que gestionan la prohibición de ciertos ítems.
